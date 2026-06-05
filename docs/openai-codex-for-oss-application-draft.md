@@ -20,10 +20,20 @@ package or apply only for a project the applicant genuinely maintains.
 
 ## Repository URL
 
-Placeholder:
+Public evidence repository:
 
 ```text
-https://github.com/<github-username>/<public-repo-name>
+https://github.com/pidouga-dev/opencut-oss-evidence
+```
+
+Related public contribution links:
+
+```text
+OpenCut fork patch branch:
+https://github.com/pidouga-dev/OpenCut/tree/codex/command-dialog-description
+
+Upstream issue:
+https://github.com/OpenCut-app/OpenCut/issues/814
 ```
 
 ## Role
@@ -43,7 +53,7 @@ Draft, 500 characters max:
 ```text
 This repository documents reproducible OpenCut OSS evaluation work: local setup,
 project creation, editor screenshots, generated public-safe test media, and a
-small accessibility patch for the onboarding dialog. The project is intended to
+small accessibility patch for a command dialog. The project is intended to
 support practical OSS triage and contribution workflows around browser-based
 video editing, including smoke tests, issue reports, and PR-ready patches.
 ```
@@ -79,4 +89,3 @@ private data and documents actual local OSS evaluation work. If this repository
 does not meet the maintainer criteria, please treat it as supporting evidence or
 a nomination-style contribution record rather than a claim of maintainership.
 ```
-
