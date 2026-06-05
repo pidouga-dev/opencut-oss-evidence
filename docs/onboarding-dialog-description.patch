@@ -1,0 +1,49 @@
+diff --git a/apps/web/src/components/editor/onboarding.tsx b/apps/web/src/components/editor/onboarding.tsx
+index bc5533ce..2f62e85b 100644
+--- a/apps/web/src/components/editor/onboarding.tsx
++++ b/apps/web/src/components/editor/onboarding.tsx
+@@ -6,7 +6,13 @@ import ReactMarkdown from "react-markdown";
+ import { SOCIAL_LINKS } from "@/site/social";
+ import { useLocalStorage } from "@/services/storage/use-local-storage";
+ import { Button } from "../ui/button";
+-import { Dialog, DialogBody, DialogContent, DialogTitle } from "../ui/dialog";
++import {
++	Dialog,
++	DialogBody,
++	DialogContent,
++	DialogDescription,
++	DialogTitle,
++} from "../ui/dialog";
+ 
+ export function Onboarding() {
+ 	const [step, setStep] = useState(0);
+@@ -38,6 +44,19 @@ export function Onboarding() {
+ 		}
+ 	};
+ 
++	const getStepDescription = () => {
++		switch (step) {
++			case 0:
++				return "You're among the first to try OpenCut - the fully open source CapCut alternative.";
++			case 1:
++				return "OpenCut is still an early beta and many editor features are still being built.";
++			case 2:
++				return "Join the OpenCut community and share feedback to help improve the editor.";
++			default:
++				return "OpenCut onboarding information.";
++		}
++	};
++
+ 	const renderStepContent = () => {
+ 		switch (step) {
+ 			case 0:
+@@ -85,6 +104,9 @@ export function Onboarding() {
+ 				<DialogTitle>
+ 					<span className="sr-only">{getStepTitle()}</span>
+ 				</DialogTitle>
++				<DialogDescription className="sr-only">
++					{getStepDescription()}
++				</DialogDescription>
+ 				<DialogBody>{renderStepContent()}</DialogBody>
+ 			</DialogContent>
+ 		</Dialog>
