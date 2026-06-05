@@ -34,6 +34,12 @@ https://github.com/pidouga-dev/OpenCut/tree/codex/command-dialog-description
 
 Upstream issue:
 https://github.com/OpenCut-app/OpenCut/issues/814
+
+OpenCut carousel cleanup patch branch:
+https://github.com/pidouga-dev/OpenCut/tree/codex/carousel-reinit-cleanup
+
+Upstream issue:
+https://github.com/OpenCut-app/OpenCut/issues/815
 ```
 
 ## Role
@@ -53,7 +59,7 @@ Draft, 500 characters max:
 ```text
 This repository documents reproducible OpenCut OSS evaluation work: local setup,
 project creation, editor screenshots, generated public-safe test media, and a
-small accessibility patch for a command dialog. The project is intended to
+small accessibility patch plus a carousel event-cleanup patch. The project is intended to
 support practical OSS triage and contribution workflows around browser-based
 video editing, including smoke tests, issue reports, and PR-ready patches.
 ```

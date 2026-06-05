@@ -16,11 +16,13 @@ issue triage, and contribution tracking.
 ## Public contribution links
 
 - Evidence repository: `https://github.com/pidouga-dev/opencut-oss-evidence`
-- OpenCut fork with patch branch: `https://github.com/pidouga-dev/OpenCut/tree/codex/command-dialog-description`
-- Upstream issue: `https://github.com/OpenCut-app/OpenCut/issues/814`
+- OpenCut command dialog patch branch: `https://github.com/pidouga-dev/OpenCut/tree/codex/command-dialog-description`
+- OpenCut command dialog issue: `https://github.com/OpenCut-app/OpenCut/issues/814`
+- OpenCut carousel cleanup patch branch: `https://github.com/pidouga-dev/OpenCut/tree/codex/carousel-reinit-cleanup`
+- OpenCut carousel cleanup issue: `https://github.com/OpenCut-app/OpenCut/issues/815`
 
 The upstream OpenCut repository currently limits pull request creation to
-collaborators, so the patch is linked from the public issue instead of a PR.
+collaborators, so the patches are linked from public issues instead of PRs.
 
 ## Privacy and safety
 
